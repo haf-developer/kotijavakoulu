@@ -25,6 +25,23 @@ drwxr-xr-x 1 userid 197609    0 Apr  2 22:17 ../
 
 [Avaimen lis&auml;ys Githubiin](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
 
+Paikalliseen repositoryyn Github repositoryn lis&auml;ys
+```
+git remote add javakoulu https://github.com/haf-developer/kotijavakoulu
+```
+Ohjeista huolimatta yll&auml;oleva ei toimi. Repositoryn luominen githubissa antoi seuraavan ohjeen
+
+```
+$ git remote add origin https://github.com/haf-developer/kotijavakoulu.git
+
+piilotettu@piilotettu MINGW64 /e/eclipseprojs (master)
+$ git remote -v
+javakoulu       https://github.com/haf-developer/kotijavakoulu (fetch)
+javakoulu       https://github.com/haf-developer/kotijavakoulu (push)
+origin  https://github.com/haf-developer/kotijavakoulu.git (fetch)
+origin  https://github.com/haf-developer/kotijavakoulu.git (push)
+```
+
 Linkit
 - Githubin apu [Help](https://help.github.com/).
 - Miten piilotat email-osoitteesi tekemist&auml;si pi&auml;vityksist&auml; (commit)
