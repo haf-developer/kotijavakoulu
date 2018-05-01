@@ -1,0 +1,9 @@
+# Eclipse project files and some Eclipse extension generated files 
+.readme.md.html
+readme.markdown
+.project
+.classpath
+.settings/
+
+# Eclipse build output folder
+bin/
