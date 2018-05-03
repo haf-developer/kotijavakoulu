@@ -3,6 +3,16 @@
 Tiedostosta `readme.md`. P&auml;&auml;te voi olla my&ouml;s `markdown`.
 Skandit tarttee kirjoittaa `&auml;` on &auml; ja `&ouml;` on &ouml; 
 
+Tämä rivi on kirjoitettu Githubin omalla editorilla. Vain aakkostestiksi.
+
+## Historiaa
+Monille saattaa olla tuttu [Sourgerorge](https://www.sourceforge.net/). Github on samanlainen koodin
+houstauspalvelu, mutta kevyempi lisenssi ehdoissaan.
+
+## Projekteja Githubissa
+- [Microsoft Typescript](https://github.com/Microsoft/TypeScript)
+- [Facebook React](https://github.com/facebook/react)
+
 ## Git asetukset
 [Ensmm&auml;iset asetukset](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 
@@ -56,4 +66,4 @@ https://help.github.com/articles/about-writing-and-formatting-on-github/
 N&auml;kyv&auml;t Eclipsess&auml; seuraavasti
 
 ![T&auml;lt&auml; n&auml;ytt&auml;v&auml;t](./doc/Markdown_viewer_Capture.PNG)
-Format: ![Vaihtoehtoinen teksti](/doc/Markdown_viewer_Capture.PNG)
+- Git integraatio [egit](http://wiki.eclipse.org/EGit/User_Guide)
