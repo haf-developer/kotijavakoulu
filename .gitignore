@@ -6,3 +6,7 @@ readme.markdown
 
 # Eclipse build output folder
 bin/
+
+# Node libraries and compile outputs
+nodeapps/expressbe/node_modules/
+nodeapps/expressbe/myapp/bin/
