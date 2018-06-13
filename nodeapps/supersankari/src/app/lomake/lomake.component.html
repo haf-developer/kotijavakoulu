@@ -1,0 +1,18 @@
+
+  <p>
+    Toimiva lomkae      
+  </p>
+  <form (submit)="laheta()">
+    <br>
+    <div *ngFor="let v of vaihtoehdot">
+        <input [id]="v" type="radio" name="supersankari" [value]="v" [(ngModel)]="supersankari">
+        <label [for]="v">{{v}}</label>
+      </div>
+      <br>
+      <input type="text" name="nimi" placeholder="Oma nimi" [(ngModel)]="nimi">
+    <br>
+    <input type="text" width="200" />
+    <br>
+    <input type="submit" title="postita" >
+  </form>
+
